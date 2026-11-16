@@ -22,16 +22,19 @@ body {
   --btn-primary-color: #ffffff;
   --btn-secondary-color: #4b5efc;
   --btn-grey-color: #d2d3da;
+  --btn-hover-primary-color: #dcdde1;
+  --btn-hover-secondary-color: #5462e0;
+  --btn-hover-grey-color: rgb(221, 223, 226);
   --btn-content-color: #000000;
 }
 
 /* Dark theme  */
 .dark {
-  --container-bg-color: #17171C;
-  --btn-primary-color: #2E2F38;
+  --container-bg-color: #17171c;
+  --btn-primary-color: #2e2f38;
   --btn-secondary-color: #4b5efc;
-  --btn-grey-color: #4E505F;
-  --btn-content-color: #FFFFFF;
+  --btn-grey-color: #4e505f;
+  --btn-content-color: #ffffff;
 }
 
 .main-container {
@@ -60,7 +63,7 @@ body {
   outline: none;
   box-shadow: none;
   border: none;
-  text-align: right
+  text-align: right;
 }
 
 .buttons-container {
@@ -85,13 +88,29 @@ body {
 .grey-btn {
   background-color: var(--btn-grey-color);
   color: var(--btn-content-color);
+  transition: all 0.2s ease;
 }
+
+.grey-btn:hover {
+  background-color: var(--btn-hover-grey-color);
+}
+
 .blue-btn {
   background-color: var(--btn-secondary-color);
   color: #ffffff;
+  transition: all 0.2s ease;
+}
+
+.blue-btn:hover {
+  background-color: var(--btn-hover-secondary-color);
 }
 
 .d-btn {
   background-color: var(--btn-primary-color);
   color: var(--btn-content-color);
+  transition: all 0.2s ease;
+}
+
+.d-btn:hover {
+  background-color: var(--btn-hover-primary-color);
 }
