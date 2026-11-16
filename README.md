@@ -1,6 +1,6 @@
 # 🔢 Calculator Web App
   
-A modern and responsive calculator built using **HTML, CSS, and JavaScript**, featuring two different themes and interactive calculation functionality.
+A modern and responsive calculator built using **HTML, CSS, and JavaScript**, featuring interactive calculation functionality.
 
 ## 📌 About the Project
 
@@ -9,7 +9,6 @@ This project was developed primarily to revise and practice important JavaScript
 ## ✨ Features
 
 - Basic mathematical calculations.
-- Two different themes (Light & Dark).
 - Responsive design for different screen sizes.
 - Interactive and user-friendly interface.
 - Clean and minimal design.
